@@ -1,10 +1,6 @@
 import React from 'react'
-import person_paying from '../person-paying.png'
-import asset192 from '../Asset-192.png'
-import asset193 from '../Asset-193.png'
-import asset194 from '../Asset-194.png'
-import asset195 from '../Asset-195.png'
-import group24 from '../Group 24.png'
+import { personPaying, asset1, asset2, asset3, asset4, group24 } from '../assets'
+
 
 function ThirdSection() {
     return (
@@ -20,7 +16,7 @@ function ThirdSection() {
                     <div className='grid grid-cols-2 px-10 justify-center gap-4'>
                         <div className='bg-blue-600 rounded-lg box-border h-50 w-55'>
                             <div className='flex justify-start pl-5 pt-5 pb-2'>
-                                <img src={asset192} width={24} height={5} className='pl-2' />
+                                <img src={asset1} width={24} height={5} className='pl-2' />
                                 <p className='pl-3 text-sm font-bold text-white'>Payment Methods</p>
                             </div>
                             <div>
@@ -30,7 +26,7 @@ function ThirdSection() {
 
                         <div className='bg-blue-900 rounded-lg box-border h-50 w-55'>
                             <div className='flex justify-start pl-10 pt-5 pb-2'>
-                                <img src={asset195} width={24} height={5} className='pl-2' />
+                                <img src={asset4} width={24} height={5} className='pl-2' />
                                 <p className='pl-3 text-sm font-bold text-white'>e-Wallet</p>
                             </div>
                             <div>
@@ -40,7 +36,7 @@ function ThirdSection() {
 
                         <div className='bg-blue-600 rounded-lg box-border h-50 w-55'>
                             <div className='flex justify-start pl-5'>
-                                <img src={asset194} width={24} height={5} className='pl-2 pt-4' />
+                                <img src={asset3} width={24} height={5} className='pl-2 pt-4' />
                                 <p className='pl-3 pt-4 text-sm font-bold text-white'>Payment Methods</p>
                             </div>
                             <div>
@@ -50,7 +46,7 @@ function ThirdSection() {
 
                         <div className='bg-blue-600 rounded-lg box-border h-50 w-55'>
                             <div className='flex justify-start pl-5'>
-                                <img src={asset193} width={24} height={5} className='pl-2 pt-4' />
+                                <img src={asset2} width={24} height={5} className='pl-2 pt-4' />
                                 <p className='pl-3 pt-4 text-sm font-bold text-white'>Payment Methods</p>
                             </div>
                             <div>
@@ -61,7 +57,7 @@ function ThirdSection() {
                     </div>
                 </div>
                 <div>
-                    <img src={person_paying} width={300} className='pt-3' />
+                    <img src={personPaying} width={300} className='pt-3' />
                 </div>
 
             </div>
