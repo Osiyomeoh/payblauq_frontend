@@ -3,7 +3,7 @@ import { logo, menu, close } from "../assets";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const [toggle, setToggle] = useState(false); 
+  const [toggleMenu, setToggleMenu] = useState(false); 
   
   return (
     <nav className="sticky top-0 shadow-lg hover:text-neutral-700 dark:bg-neutral-600 z-10 w-full py-3 p-10 flex justify-between items-center navbar">
@@ -39,16 +39,16 @@ const Navbar = () => {
       {/* Mobile navigation Bar */}
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
-          src={toggle ? close : menu}
+          src={toggleMenu ? close : menu}
           alt="menu"
           className="w-[28px] h-[28px] object-contain"
-          onClick={() => setToggle((prev) => !prev)}
+          onClick={() => setToggleMenu((prev) => !prev)}
         />
 
          {/* Mobile menu */}
         <div
           className={`${
-            !toggle ? "hidden" : "flex"
+            !toggleMenu ? "hidden" : "flex"
           } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] 
           rounded-xl sidebar`}
         >
