@@ -6,7 +6,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false); 
   
   return (
-    <nav className="w-full py-3 p-10 flex justify-between items-center navbar">
+    <nav className="sticky top-0 shadow-lg hover:text-neutral-700 dark:bg-neutral-600 z-10 w-full py-3 p-10 flex justify-between items-center navbar">
       <img src={logo} alt="Payblauq" className="h-[120] w-[120] mr-4" />
       <div className="list-none  sm:flex hidden justify-between items-center flex-1">
         <ul className="text-base flex justify-between px-2">
