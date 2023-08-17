@@ -31,7 +31,7 @@ const Navbar = () => {
             <a href="index.html">Contact sales </a>
           </li>
           <button className="bg-blue-100 hover:bg-blue-400 text-white font-bold py-2 px-4 border border-blue-100 rounded-full">
-            Sign in
+            Sign-in
           </button>
         </ul>
       </div>
