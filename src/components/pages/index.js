@@ -1,4 +1,4 @@
-export { default as Solutions} from "./Solutions";
+export { default as Solutions} from "./solutions";
 export { default as Home} from "./Home";
 export { default as Developers} from "./developers";
 export { default as Products} from "./products";
