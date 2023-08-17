@@ -11,9 +11,9 @@ function FirstSection() {
       <div >
         <Navbar></Navbar>
       </div>
-      <div className='flex'>
+      <div className='lg:flex'>
         <div>
-          <div className='w-4/5 pl-10 pt-10 pb-5 font-bold text-white text-6xl'>
+          <div className='w-4/5 pl-10 pt-10 pb-5 font-bold text-white text-3xl lg:text-6xl'>
             Financial infrastructure for the internet
           </div>
           <div className="text-white w-5/6 px-10 text-xs justify-straight">
