@@ -37,12 +37,12 @@ jobs:
         continue-on-error: false
 
       # Merge to main branch
-      - name: Merge to dev
-        if: success() && github.event_name == 'push' && github.ref == 'refs/heads/dev' # Only merge on successful push to main branch
-        run: git merge origin/dev --no-edit
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN_GIT }}
-        continue-on-error: false
+      # - name: Merge to dev
+      #   if: success() && github.event_name == 'push' && github.ref == 'refs/heads/dev' # Only merge on successful push to main branch
+      #   run: git merge origin/dev --no-edit
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.TOKEN_GIT }}
+      #   continue-on-error: false
         
         
         
