@@ -2,10 +2,10 @@ name: Deploying to Vercel and Netlify
 on:
   push:
     branches:
-      ["main", "dev"]
+      - dev
   pull_request:
     branches:
-       ["main", "dev"]
+      - dev
       
 
 jobs:
@@ -17,7 +17,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          ref: main
+          ref: dev
 
       # Install Node.js 16
       - name: Setup Node.js
@@ -37,7 +37,7 @@ jobs:
         continue-on-error: false
 
       # Merge to main branch
-      - name: Merge to main
+      - name: Merge to dev
         if: success() && github.event_name == 'push' && github.ref == 'refs/heads/dev' # Only merge on successful push to main branch
         run: git merge origin/dev --no-edit
         env:
