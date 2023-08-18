@@ -23,6 +23,23 @@ import phoneImg2 from "./phone_img2.png";
 import shopify from "./Shopify.png";
 import woocommerce from "./woocommerce.png";
 import wordpress from "./Wordpress.png";
+import world from "./world.png";
+import paykun1 from "./paykun-payment-button.png";
+import paykun2 from "./paykun-payment-gateway.png";
+import paykun3 from "./paykun-payment-link.png";
+import flatRectangle from "./Rectangle 124.png";
+import crypto from "./crypto.png";
+import add_card from "./add_card.png";
+import bolt from "./bolt.png";
+import lan from "./lan.png";
+import payment_suite from "./payment-suite.png";
+import signUp from "./signUp.png";
+import facebook from "./facebook.png";
+import google_plus from "./google-plus.png";
+import linkedin from "./linkedin.png";
+import Twitter from "./Twitter.png";
+
+
 
 export {
     logo,
@@ -49,5 +66,20 @@ export {
     phoneImg2,
     shopify,
     woocommerce,
-    wordpress
+    wordpress,
+    world,
+    paykun1,
+    paykun2,
+    paykun3,
+    flatRectangle,
+    crypto,
+    add_card,
+    bolt,
+    lan,
+    payment_suite,
+    signUp,
+    facebook,
+    google_plus,
+    linkedin,
+    Twitter
 };

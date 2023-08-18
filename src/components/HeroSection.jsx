@@ -8,7 +8,7 @@ function HeroSection() {
   return (
     <div className="bg-[url('./assets/bg1.png')]">
       <Navbar />
-      <div className="flex">
+      <div className="lg:flex">
         <div>
           <div className="w-4/5 pl-10 pt-10 pb-5 font-bold text-white text-6xl">
             Financial infrastructure for the internet
